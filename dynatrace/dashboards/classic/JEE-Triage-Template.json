@@ -858,6 +858,20 @@
       "metricExpressions": [
         "resolution=null&(builtin:tech.jvm.memory.gc.suspensionTime:splitBy():sort(value(auto,descending)):limit(20)):limit(100):names"
       ]
+    },
+    {
+      "name": "Markdown",
+      "tileType": "MARKDOWN",
+      "configured": true,
+      "bounds": {
+        "top": 0,
+        "left": 1292,
+        "width": 304,
+        "height": 152
+      },
+      "tileFilter": {},
+      "isAutoRefreshDisabled": false,
+      "markdown": "## Adjust for your needs\n\nThis is a template that is at a minimum splitting by service or process.  Create a management zone with the exact entities you want to evaluate."
     }
   ]
 }
